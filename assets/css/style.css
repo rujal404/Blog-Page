@@ -60,6 +60,12 @@ section {
     width: 100vw;
 }
 
+/* add to posts on index if there's no featured post. eg. search results page*/
+/* ADDED AFTER TUTORIAL */
+.section__extra-margin {
+    margin-top: 7rem;
+}
+
 h1, h2, h3, h4, h5 {
     color: var(--color-white);
     line-height: 1.3;
@@ -144,7 +150,7 @@ nav button {
 
 .nav__profile ul {
     position: absolute;
-    top: 125%;
+    top: 140%;
     right: 0;
     display: flex;
     flex-direction: column;
@@ -323,6 +329,7 @@ footer ul a:hover {
     width: 30rem;
     background: var(--color-gray-900);
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
@@ -441,6 +448,12 @@ footer ul a:hover {
     color: var(--color-green);
 }
 
+/*centers text of alert. eg. empty category-post page*/
+/* ADDED AFTER TUTORIAL */
+.alert__message.lg {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -479,6 +492,10 @@ input, textarea, select {
 /*================================================================================Dashboard              =================================================================================*/
 .dashboard {
     margin-top: 6rem;
+}
+
+.dashboard .sidebar__toggle {
+    display: none;
 }
 
 .dashboard__container {

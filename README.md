@@ -1,4 +1,4 @@
-### [PHP & MySQL Blog Web App with Admin Panel]
+### [Blog Web App]
 
 ![](thumbnail.jpg)
 
